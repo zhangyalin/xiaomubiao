@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block title %}Flasky{% endblock %}
+
+{% block page_content %}
+<div class="page-header">
+    <h1>Hello, {% if current_user.is_authenticated %}{{ current_user.username }}{% else %}Stranger{% endif %}!</h1>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <li class="pr no-select loading  J_media_list_item" itemscope itemtype="http://schema.org/VideoObject">
+                            <meta itemprop="uploadDate" content="2018-06-01T17:05:03+08:00">
+            <img src="http://mvimg11.meitudata.com/5b110bdaee81d7750.jpg!thumb320" width="300" height="300" class="db pa pai" alt="他们说这才是我生活中的样子 祝我的大小朋友们 儿童节快乐咯💁🏿‍♂️ 音乐：爱的初体验 @HelloDance舞蹈工作室 #舞蹈#" itemprop="thumbnailUrl">
+        
+        
+                    <div id="w1011222088" class="content-l-video content-l-media-wrap pr cp" data-id="1011222088" data-video="8402aHR0cDovhoL212dmlkZW8xMS5tZWl0dWRhdGEuY29tLzViMTEwYmRhZGQyODgyMDY2X0gyNjRfMy5tcDQ/az03ZmIzZGJiYzVmYWI2Njg0YWQyNDk2YzkyZDQwNGU2NyZ0PTViMT5kwLdiZWY5" itemprop="name">
+                                <div class="layer-black pa"></div>
+                <a hidefocus href="/media/1011222088" target="_blank"
+                   class="content-l-p pa" title="他们说这才是我生活中的样子 祝我的大小朋友们 儿童节快乐咯💁🏿‍♂️ 音乐：爱的初体验 @HelloDance舞蹈工作室 #舞蹈#">
+                   <meta itemprop="url" content="/media/1011222088">
+                    <i class="icon icon-item-play"></i>
+                    <strong class="js-convert-emoji" itemprop="description">他们说这才是我生活中的样子 ...</strong>
+                </a>
+            </div>
+                <div class="pr" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+                        <span data-href="/user/1011686972" class="js-span-a dbl h48">
+                <img src="http://mvavatar1.meitudata.com/57225b5ac85f33792.jpg!thumb60" width="28" height="28" class="avatar m10" title="HelloDance黄潇" alt="HelloDance黄潇">
+                                    <img src="//img.app.meitudata.com/meitumv/images/vip.png?v1" width="10" height="10" class="pa c-vip" alt="">
+                            </span>
+            <p class="content-name  pa">
+                <a hidefocus href="/user/1011686972" class="content-name-a js-convert-emoji" title="HelloDance黄潇">HelloDance黄潇</a>
+            </p>
+
+            
+                            <div class="content-like pa" data-id="1011222088">
+                                            <i class="icon icon-like"></i>
+                                        <span itemprop="ratingCount">1530<meta itemprop="ratingValue" content="1530个赞"></span>
+                </div>
+            
+                        <span data-href="/media/1011222088" data-sc=""
+               class="conten-command pa js-span-a" data-open-new-window="1" data-id="1011222088" itemprop="itemReviewed">
+                <i class="icon icon-command"></i>
+                <span itemprop="reviewCount">27</span>
+            </span>
+                    </div>
+    </li>
+    </div>
+</div>
+{% endblock %}
